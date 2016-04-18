@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8542559F1CC55723004B726C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542559E1CC55723004B726C /* AppDelegate.swift */; };
+		854255A11CC55723004B726C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854255A01CC55723004B726C /* ViewController.swift */; };
+		854255A41CC55723004B726C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854255A21CC55723004B726C /* Main.storyboard */; };
+		854255A61CC55723004B726C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854255A51CC55723004B726C /* Assets.xcassets */; };
+		854255A91CC55723004B726C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854255A71CC55723004B726C /* LaunchScreen.storyboard */; };
+		854255B41CC55723004B726C /* qantaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854255B31CC55723004B726C /* qantaTests.swift */; };
+		854255BF1CC55723004B726C /* qantaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854255BE1CC55723004B726C /* qantaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		854255B01CC55723004B726C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 854255931CC55722004B726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8542559A1CC55722004B726C;
+			remoteInfo = qanta;
+		};
+		854255BB1CC55723004B726C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 854255931CC55722004B726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8542559A1CC55722004B726C;
+			remoteInfo = qanta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8542559B1CC55722004B726C /* qanta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qanta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8542559E1CC55723004B726C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		854255A01CC55723004B726C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		854255A31CC55723004B726C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		854255A51CC55723004B726C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		854255A81CC55723004B726C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		854255AA1CC55723004B726C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		854255AF1CC55723004B726C /* qantaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qantaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		854255B31CC55723004B726C /* qantaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qantaTests.swift; sourceTree = "<group>"; };
+		854255B51CC55723004B726C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		854255BA1CC55723004B726C /* qantaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qantaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		854255BE1CC55723004B726C /* qantaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qantaUITests.swift; sourceTree = "<group>"; };
+		854255C01CC55723004B726C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		854255981CC55722004B726C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854255AC1CC55723004B726C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854255B71CC55723004B726C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		854255921CC55722004B726C = {
+			isa = PBXGroup;
+			children = (
+				8542559D1CC55722004B726C /* qanta */,
+				854255B21CC55723004B726C /* qantaTests */,
+				854255BD1CC55723004B726C /* qantaUITests */,
+				8542559C1CC55722004B726C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8542559C1CC55722004B726C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8542559B1CC55722004B726C /* qanta.app */,
+				854255AF1CC55723004B726C /* qantaTests.xctest */,
+				854255BA1CC55723004B726C /* qantaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8542559D1CC55722004B726C /* qanta */ = {
+			isa = PBXGroup;
+			children = (
+				8542559E1CC55723004B726C /* AppDelegate.swift */,
+				854255A01CC55723004B726C /* ViewController.swift */,
+				854255A21CC55723004B726C /* Main.storyboard */,
+				854255A51CC55723004B726C /* Assets.xcassets */,
+				854255A71CC55723004B726C /* LaunchScreen.storyboard */,
+				854255AA1CC55723004B726C /* Info.plist */,
+			);
+			path = qanta;
+			sourceTree = "<group>";
+		};
+		854255B21CC55723004B726C /* qantaTests */ = {
+			isa = PBXGroup;
+			children = (
+				854255B31CC55723004B726C /* qantaTests.swift */,
+				854255B51CC55723004B726C /* Info.plist */,
+			);
+			path = qantaTests;
+			sourceTree = "<group>";
+		};
+		854255BD1CC55723004B726C /* qantaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				854255BE1CC55723004B726C /* qantaUITests.swift */,
+				854255C01CC55723004B726C /* Info.plist */,
+			);
+			path = qantaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8542559A1CC55722004B726C /* qanta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 854255C31CC55723004B726C /* Build configuration list for PBXNativeTarget "qanta" */;
+			buildPhases = (
+				854255971CC55722004B726C /* Sources */,
+				854255981CC55722004B726C /* Frameworks */,
+				854255991CC55722004B726C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qanta;
+			productName = qanta;
+			productReference = 8542559B1CC55722004B726C /* qanta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		854255AE1CC55723004B726C /* qantaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 854255C61CC55723004B726C /* Build configuration list for PBXNativeTarget "qantaTests" */;
+			buildPhases = (
+				854255AB1CC55723004B726C /* Sources */,
+				854255AC1CC55723004B726C /* Frameworks */,
+				854255AD1CC55723004B726C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				854255B11CC55723004B726C /* PBXTargetDependency */,
+			);
+			name = qantaTests;
+			productName = qantaTests;
+			productReference = 854255AF1CC55723004B726C /* qantaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		854255B91CC55723004B726C /* qantaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 854255C91CC55723004B726C /* Build configuration list for PBXNativeTarget "qantaUITests" */;
+			buildPhases = (
+				854255B61CC55723004B726C /* Sources */,
+				854255B71CC55723004B726C /* Frameworks */,
+				854255B81CC55723004B726C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				854255BC1CC55723004B726C /* PBXTargetDependency */,
+			);
+			name = qantaUITests;
+			productName = qantaUITests;
+			productReference = 854255BA1CC55723004B726C /* qantaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		854255931CC55722004B726C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Chuck Man";
+				TargetAttributes = {
+					8542559A1CC55722004B726C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = DQDSFQ55SW;
+					};
+					854255AE1CC55723004B726C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = DQDSFQ55SW;
+						TestTargetID = 8542559A1CC55722004B726C;
+					};
+					854255B91CC55723004B726C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = DQDSFQ55SW;
+						TestTargetID = 8542559A1CC55722004B726C;
+					};
+				};
+			};
+			buildConfigurationList = 854255961CC55722004B726C /* Build configuration list for PBXProject "qanta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 854255921CC55722004B726C;
+			productRefGroup = 8542559C1CC55722004B726C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8542559A1CC55722004B726C /* qanta */,
+				854255AE1CC55723004B726C /* qantaTests */,
+				854255B91CC55723004B726C /* qantaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		854255991CC55722004B726C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854255A91CC55723004B726C /* LaunchScreen.storyboard in Resources */,
+				854255A61CC55723004B726C /* Assets.xcassets in Resources */,
+				854255A41CC55723004B726C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854255AD1CC55723004B726C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854255B81CC55723004B726C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		854255971CC55722004B726C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854255A11CC55723004B726C /* ViewController.swift in Sources */,
+				8542559F1CC55723004B726C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854255AB1CC55723004B726C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854255B41CC55723004B726C /* qantaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854255B61CC55723004B726C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854255BF1CC55723004B726C /* qantaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		854255B11CC55723004B726C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8542559A1CC55722004B726C /* qanta */;
+			targetProxy = 854255B01CC55723004B726C /* PBXContainerItemProxy */;
+		};
+		854255BC1CC55723004B726C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8542559A1CC55722004B726C /* qanta */;
+			targetProxy = 854255BB1CC55723004B726C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		854255A21CC55723004B726C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				854255A31CC55723004B726C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		854255A71CC55723004B726C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				854255A81CC55723004B726C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		854255C11CC55723004B726C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		854255C21CC55723004B726C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		854255C41CC55723004B726C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = qanta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = man.chuck.qanta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		854255C51CC55723004B726C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = qanta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = man.chuck.qanta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		854255C71CC55723004B726C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = qantaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = man.chuck.qantaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qanta.app/qanta";
+			};
+			name = Debug;
+		};
+		854255C81CC55723004B726C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = qantaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = man.chuck.qantaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qanta.app/qanta";
+			};
+			name = Release;
+		};
+		854255CA1CC55723004B726C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = qantaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = man.chuck.qantaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = qanta;
+			};
+			name = Debug;
+		};
+		854255CB1CC55723004B726C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = qantaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = man.chuck.qantaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = qanta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		854255961CC55722004B726C /* Build configuration list for PBXProject "qanta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				854255C11CC55723004B726C /* Debug */,
+				854255C21CC55723004B726C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		854255C31CC55723004B726C /* Build configuration list for PBXNativeTarget "qanta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				854255C41CC55723004B726C /* Debug */,
+				854255C51CC55723004B726C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		854255C61CC55723004B726C /* Build configuration list for PBXNativeTarget "qantaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				854255C71CC55723004B726C /* Debug */,
+				854255C81CC55723004B726C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		854255C91CC55723004B726C /* Build configuration list for PBXNativeTarget "qantaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				854255CA1CC55723004B726C /* Debug */,
+				854255CB1CC55723004B726C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 854255931CC55722004B726C /* Project object */;
+}
