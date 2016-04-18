@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		853372221CC561050086B0E3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8581AEBC1CC55E6F007C5E4A /* Alamofire.framework */; };
+		853372231CC561050086B0E3 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8581AEBC1CC55E6F007C5E4A /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		853372261CC562820086B0E3 /* HNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853372251CC562820086B0E3 /* HNViewController.swift */; };
+		853372281CC57A3A0086B0E3 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853372271CC57A3A0086B0E3 /* SnapKit.framework */; };
+		8533722A1CC57A510086B0E3 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 853372271CC57A3A0086B0E3 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8533722D1CC57F600086B0E3 /* HNService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8533722C1CC57F600086B0E3 /* HNService.swift */; };
 		8542559F1CC55723004B726C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542559E1CC55723004B726C /* AppDelegate.swift */; };
-		854255A11CC55723004B726C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854255A01CC55723004B726C /* ViewController.swift */; };
-		854255A41CC55723004B726C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854255A21CC55723004B726C /* Main.storyboard */; };
+		854255A11CC55723004B726C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854255A01CC55723004B726C /* BaseViewController.swift */; };
 		854255A61CC55723004B726C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854255A51CC55723004B726C /* Assets.xcassets */; };
 		854255A91CC55723004B726C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854255A71CC55723004B726C /* LaunchScreen.storyboard */; };
 		854255B41CC55723004B726C /* qantaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854255B31CC55723004B726C /* qantaTests.swift */; };
 		854255BF1CC55723004B726C /* qantaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854255BE1CC55723004B726C /* qantaUITests.swift */; };
+		8581AEBB1CC55C4D007C5E4A /* HNClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581AEBA1CC55C4D007C5E4A /* HNClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,11 +39,28 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		853372241CC561050086B0E3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				853372231CC561050086B0E3 /* Alamofire.framework in Embed Frameworks */,
+				8533722A1CC57A510086B0E3 /* SnapKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		853372251CC562820086B0E3 /* HNViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNViewController.swift; path = Controllers/HNViewController.swift; sourceTree = "<group>"; };
+		853372271CC57A3A0086B0E3 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		8533722C1CC57F600086B0E3 /* HNService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNService.swift; path = Services/HackerNews/HNService.swift; sourceTree = "<group>"; };
 		8542559B1CC55722004B726C /* qanta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qanta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8542559E1CC55723004B726C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		854255A01CC55723004B726C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		854255A31CC55723004B726C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		854255A01CC55723004B726C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = Controllers/BaseViewController.swift; sourceTree = "<group>"; };
 		854255A51CC55723004B726C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		854255A81CC55723004B726C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		854255AA1CC55723004B726C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +70,8 @@
 		854255BA1CC55723004B726C /* qantaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qantaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		854255BE1CC55723004B726C /* qantaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qantaUITests.swift; sourceTree = "<group>"; };
 		854255C01CC55723004B726C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8581AEBA1CC55C4D007C5E4A /* HNClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNClient.swift; path = Services/Net/Hacknews/HNClient.swift; sourceTree = "<group>"; };
+		8581AEBC1CC55E6F007C5E4A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				853372221CC561050086B0E3 /* Alamofire.framework in Frameworks */,
+				853372281CC57A3A0086B0E3 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +101,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8533722B1CC57F2F0086B0E3 /* HackerNews */ = {
+			isa = PBXGroup;
+			children = (
+				8533722C1CC57F600086B0E3 /* HNService.swift */,
+			);
+			name = HackerNews;
+			sourceTree = "<group>";
+		};
 		854255921CC55722004B726C = {
 			isa = PBXGroup;
 			children = (
 				8542559D1CC55722004B726C /* qanta */,
 				854255B21CC55723004B726C /* qantaTests */,
 				854255BD1CC55723004B726C /* qantaUITests */,
+				8581AEBE1CC55E76007C5E4A /* Frameworks */,
 				8542559C1CC55722004B726C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,8 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				8542559E1CC55723004B726C /* AppDelegate.swift */,
-				854255A01CC55723004B726C /* ViewController.swift */,
-				854255A21CC55723004B726C /* Main.storyboard */,
+				8581AEB61CC55958007C5E4A /* Controllers */,
+				8581AEB71CC55C10007C5E4A /* Services */,
 				854255A51CC55723004B726C /* Assets.xcassets */,
 				854255A71CC55723004B726C /* LaunchScreen.storyboard */,
 				854255AA1CC55723004B726C /* Info.plist */,
@@ -125,6 +161,49 @@
 			path = qantaUITests;
 			sourceTree = "<group>";
 		};
+		8581AEB61CC55958007C5E4A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				854255A01CC55723004B726C /* BaseViewController.swift */,
+				853372251CC562820086B0E3 /* HNViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8581AEB71CC55C10007C5E4A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8533722B1CC57F2F0086B0E3 /* HackerNews */,
+				8581AEB81CC55C18007C5E4A /* Net */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		8581AEB81CC55C18007C5E4A /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				8581AEB91CC55C1E007C5E4A /* HackerNews */,
+			);
+			name = Net;
+			sourceTree = "<group>";
+		};
+		8581AEB91CC55C1E007C5E4A /* HackerNews */ = {
+			isa = PBXGroup;
+			children = (
+				8581AEBA1CC55C4D007C5E4A /* HNClient.swift */,
+			);
+			name = HackerNews;
+			sourceTree = "<group>";
+		};
+		8581AEBE1CC55E76007C5E4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				853372271CC57A3A0086B0E3 /* SnapKit.framework */,
+				8581AEBC1CC55E6F007C5E4A /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +214,7 @@
 				854255971CC55722004B726C /* Sources */,
 				854255981CC55722004B726C /* Frameworks */,
 				854255991CC55722004B726C /* Resources */,
+				853372241CC561050086B0E3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,7 +314,6 @@
 			files = (
 				854255A91CC55723004B726C /* LaunchScreen.storyboard in Resources */,
 				854255A61CC55723004B726C /* Assets.xcassets in Resources */,
-				854255A41CC55723004B726C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +338,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				854255A11CC55723004B726C /* ViewController.swift in Sources */,
+				854255A11CC55723004B726C /* BaseViewController.swift in Sources */,
+				8581AEBB1CC55C4D007C5E4A /* HNClient.swift in Sources */,
+				8533722D1CC57F600086B0E3 /* HNService.swift in Sources */,
+				853372261CC562820086B0E3 /* HNViewController.swift in Sources */,
 				8542559F1CC55723004B726C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +378,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		854255A21CC55723004B726C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				854255A31CC55723004B726C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		854255A71CC55723004B726C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -404,6 +478,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = qanta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = man.chuck.qanta;
@@ -415,6 +493,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = qanta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = man.chuck.qanta;
@@ -487,6 +569,7 @@
 				854255C51CC55723004B726C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		854255C61CC55723004B726C /* Build configuration list for PBXNativeTarget "qantaTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +578,7 @@
 				854255C81CC55723004B726C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		854255C91CC55723004B726C /* Build configuration list for PBXNativeTarget "qantaUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +587,7 @@
 				854255CB1CC55723004B726C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,5 @@
+# HTTP
+github "Alamofire/Alamofire" ~> 3.3
+
+# Auto layout
+github "SnapKit/SnapKit" >= 0.15.0
